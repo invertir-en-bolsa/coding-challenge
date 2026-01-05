@@ -9,7 +9,7 @@ We hope you are eager to take one of our code challenges and show us how amazing
 
 *Choose the challenge related to the position you are interested in:*
 
-- [Back-end](backend.md)
+- [Backend](backend.md)
 
 ## How to deliver?
 
