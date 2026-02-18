@@ -41,6 +41,12 @@ route(venues: number[], target: number): number[]
 
 ## Constraints and Requirements
 
+### Requirements
+
+- Implement this function in TypeScript.
+- You may not use any external libraries or packages; only built-in JavaScript/TypeScript features are allowed.
+- The solution should be well-documented and easy to understand.
+
 ### Inputs
 
 - venues contains integer values > 0
@@ -51,6 +57,19 @@ route(venues: number[], target: number): number[]
 
 - You cannot use the same venue twice (no [k, k])
 - If the input contains duplicates, using two different indices is allowed
+
+### Performance
+
+- The solution should be efficient and able to handle large inputs within a reasonable time frame.
+
+### Tests
+
+- You should write tests to validate your solution against various scenarios, including edge cases.
+- Consider cases where:
+    - No valid pairs exist
+    - Multiple valid pairs exist (only one should be returned)
+    - The target is larger than any single venue's shares
+    - The target is smaller than the smallest venue's shares
 
 ### Examples
 
